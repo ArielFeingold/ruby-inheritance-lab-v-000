@@ -1,6 +1,6 @@
 require 'pry'
 require_relative "./user.rb"
 
-class Student < user
+class Student < User
 
 end
