@@ -3,10 +3,10 @@ require_relative "./user.rb"
 
 class Student < User
 
-attr_accessor :knowledge_array
+attr_accessor :knowledge
 
   def initialize
-    @knowledge_array = []
+    @knowledge = []
   end
 
 end
